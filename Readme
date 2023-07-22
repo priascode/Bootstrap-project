@@ -1,0 +1,32 @@
+Bootstrap  5 is a css framework and used to develop customized responsive mobile first designs
+popper js useed on over pop over dependency
+we can use  via cdn or download to your folder or npm intallation
+# npm install bootstrap
+
+#npm install @popper/core -safe
+
+1. grid system
+ row col
+ breakpoints - sm,md, lg, xl, xxl
+ 3 elements
+ container - has default margins
+ container-fluid for full width
+2. buttons
+btn, colors- primary , secondary,
+
+3. cards
+4. typography
+5. images
+6. utilities
+    -spacing m-margin mt-top, mr ml, mb-bottom, mx, my
+            p - padding pt,pl, pr, pb, px, py
+            s (start) -LTR left to right
+            e (end) - RTL 
+            border-radius - rounded
+            border - top, bottom, start, end
+            display
+            position
+            flex
+            overflow
+7. tables
+8. alerts

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+</head>
+<body>
+
+   <div class="continer  my-5">
+    <button type="button" class="btn btn-outline-primary btn-lg" disabled> click me</button>
+   </div>
+
+   <button type="button" class="btn btn-primary" data-bs-toggle="button" autocomplete="off">Toggle button</button>
+<button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off" aria-pressed="true">Active toggle button</button>
+<button type="button" class="btn btn-primary" disabled data-bs-toggle="button" autocomplete="off">Disabled toggle button</button>
+   
+<script>
+    var buttons = document.querySelectorAll('.btn')
+buttons.forEach(function (button) {
+  var button = new bootstrap.Button(button)
+  button.toggle()
+})
+</script>
+    
+<script src="js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
